@@ -10,4 +10,4 @@ jobs:
             -   name: Utiliser le secret
                 env:
                     MESSAGE: ${{ secrets.MESSAGE }}
-                run: echo "Le message secret est : $MESSAGE"
+                run: 'echo "Le message secret est : $MESSAGE"'
